@@ -1,0 +1,19 @@
+{
+    "name": "@aminnairi/markdown-summary",
+    "version": "0.1.0",
+    "description": "Parse and create a Markdown summary of titles from a Markdown file.",
+    "license": "MIT",
+    "bin": "./binary/markdown-summary.js",
+    "files": [
+        "./binary/markdown-summary.js"
+    ],
+    "scripts": {
+        "binary": "rollup --config ./rollup.config.js"
+    },
+    "dependencies": {
+        "rollup": "^2.28.1",
+        "rollup-plugin-auto-external": "^2.0.0",
+        "rollup-plugin-delete": "^2.0.0",
+        "rollup-plugin-terser": "^7.0.2"
+    }
+}
