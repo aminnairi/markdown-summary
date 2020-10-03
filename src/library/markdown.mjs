@@ -36,7 +36,7 @@ export const getMarkdownSummary = array => {
         }
         
         if (duplicates > 0) {
-            markdownTitlesAndLinksDeduplicated.push(`${markdownTitlesAndLinks[current].title}(${markdownTitlesAndLinks[current].link + duplicates})`);
+            markdownTitlesAndLinksDeduplicated.push(`${markdownTitlesAndLinks[current].title}(${markdownTitlesAndLinks[current].link}-${duplicates})`);
         } else {
             markdownTitlesAndLinksDeduplicated.push(`${markdownTitlesAndLinks[current].title}(${markdownTitlesAndLinks[current].link})`);
         }
