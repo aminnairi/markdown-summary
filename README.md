@@ -2,8 +2,8 @@
 
 ## Summary
 
-- [Example](#example)
 - [Usage](#usage)
+- [Example](#example)
 - [Installation](#installation)
   - [[NPM][npm]](#[npm][npm])
   - [[Yarn][yarn]](#[yarn][yarn])
@@ -11,6 +11,12 @@
   - [[NPM][npm]](#[npm][npm]1)
   - [[Yarn][yarn]](#[yarn][yarn]1)
 - [Requirements](#requirements)
+
+## Usage
+
+```console
+markdown-summary README.md
+```
 
 ## Example
 
@@ -44,8 +50,6 @@ $ $EDITOR README.md
 ```console
 markdown-summary README.md
 ```
-
-## Usage
 
 ```console
 $ markdown-summary README.md
