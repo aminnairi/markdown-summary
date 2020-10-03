@@ -76,7 +76,7 @@ $ markdown-summary README.md
 
 [:arrow_up: Back to summary](#summary)
 
-### [NPM][npm]
+### NPM
 
 ```console
 $ sudo npm install --global aminnairi/markdown-summary
@@ -84,7 +84,7 @@ $ sudo npm install --global aminnairi/markdown-summary
 
 [:arrow_up: Back to summary](#summary)
 
-### [Yarn][yarn]
+### Yarn
 
 ```console
 $ sudo yarn global add aminnairi/markdown-summary
@@ -96,7 +96,7 @@ $ sudo yarn global add aminnairi/markdown-summary
 
 [:arrow_up: Back to summary](#summary)
 
-### [NPM][npm]
+### NPM
 
 ```console
 $ sudo npm uninstall --global @aminnairi/markdown-summary
@@ -104,7 +104,7 @@ $ sudo npm uninstall --global @aminnairi/markdown-summary
 
 [:arrow_up: Back to summary](#summary)
 
-### [Yarn][yarn]
+### Yarn
 
 ```console
 $ sudo yarn global remove @aminnairi/markdown-summary
