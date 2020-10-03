@@ -5,11 +5,11 @@
 - [Usage](#usage)
 - [Example](#example)
 - [Installation](#installation)
-  - [[NPM][npm]](#[npm][npm])
-  - [[Yarn][yarn]](#[yarn][yarn])
+  - [NPM](#npm)
+  - [Yarn](#yarn)
 - [Uninstallation](#uninstallation)
-  - [[NPM][npm]](#[npm][npm]1)
-  - [[Yarn][yarn]](#[yarn][yarn]1)
+  - [NPM](#npm1)
+  - [Yarn](#yarn1)
 - [Requirements](#requirements)
 
 ## Usage
@@ -17,6 +17,8 @@
 ```console
 markdown-summary README.md
 ```
+
+[:arrow_up: Back to summary](#summary)
 
 ## Example
 
@@ -64,11 +66,15 @@ $ markdown-summary README.md
     - [Title 3.1.3](#title-3.1.3)
 ```
 
+[:arrow_up: Back to summary](#summary)
+
 ## Installation
 
 - [Node][node]
 - [NPM][npm] (instead of Yarn)
 - [Yarn][yarn] (instead of NPM)
+
+[:arrow_up: Back to summary](#summary)
 
 ### [NPM][npm]
 
@@ -76,13 +82,19 @@ $ markdown-summary README.md
 $ sudo npm install --global aminnairi/markdown-summary
 ```
 
+[:arrow_up: Back to summary](#summary)
+
 ### [Yarn][yarn]
 
 ```console
 $ sudo yarn global add aminnairi/markdown-summary
 ```
 
+[:arrow_up: Back to summary](#summary)
+
 ## Uninstallation
+
+[:arrow_up: Back to summary](#summary)
 
 ### [NPM][npm]
 
@@ -90,17 +102,23 @@ $ sudo yarn global add aminnairi/markdown-summary
 $ sudo npm uninstall --global @aminnairi/markdown-summary
 ```
 
+[:arrow_up: Back to summary](#summary)
+
 ### [Yarn][yarn]
 
 ```console
 $ sudo yarn global remove @aminnairi/markdown-summary
 ```
 
+[:arrow_up: Back to summary](#summary)
+
 ## Requirements
 
 - [Node.js][node]
 - [NPM][npm] (instead of [Yarn][yarn])
 - [Yarn][yarn] (instead of [NPM][npm])
+
+[:arrow_up: Back to summary](#summary)
 
 [node]: https://nodejs.org/en/
 [npm]: https://www.npmjs.com/
