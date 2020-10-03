@@ -1,5 +1,39 @@
 import {getCharacterCount} from "./string.mjs";
 
+/**
+ * Return the title of a Markdown link.
+ * 
+ * @param {string} text
+ * 
+ * @return {string}
+ * 
+ * @example
+ * getMarkdownLinkTitle("[Yarn][yarn]");    // "Yarn"
+ * getMarkdownLinkTitle("[Node.js][node]"); // "Node.js"
+ * getMarkdownLinkTitle("[NPM][npm]");      // "NPM"
+ */
+export function getMarkdownLinkTitle(text) {
+    /** @const {RegExp} pattern */
+    const pattern = /\[(?<title>.*)]\[.*]/;
+
+    /** @const {Object} */
+    const match = pattern.exec(text); 
+
+    if (match === null) {
+        return text;
+    }
+
+    if (!Object.prototype.hasOwnProperty.call(match, "groups")) {
+        return text;
+    }
+
+    if (!Object.prototype.hasOwnProperty.call(match.groups, "title")) {
+        return text;
+    }
+
+    return match.groups.title;
+}
+
 export const getMarkdownSummary = array => {
     let LENGTH = array.length;
     const markdownTitles = [];
@@ -15,8 +49,8 @@ export const getMarkdownSummary = array => {
 
     for (let index = 0; index < LENGTH; index++) {
         const level = (getCharacterCount("#", markdownTitles[index]) - 2) * 2;
-        const markdownTitle = markdownTitles[index].split("#").join("").trim();
-        const markdownLink = "#" + markdownTitles[index].split("#").join("").split(":").join("").trim().toLowerCase().split(" ").join("-");
+        const markdownTitle = getMarkdownLinkTitle(markdownTitles[index].split("#").join("").trim());
+        const markdownLink = "#" + getMarkdownLinkTitle(markdownTitles[index].split("#").join("").split(":").join("").trim().toLowerCase().split(" ").join("-"));
 
         markdownTitlesAndLinks.push({
             title: `${" ".repeat(level)}- [${markdownTitle}]`,
