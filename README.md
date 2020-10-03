@@ -8,8 +8,8 @@
   - [NPM](#npm)
   - [Yarn](#yarn)
 - [Uninstallation](#uninstallation)
-  - [NPM](#npm1)
-  - [Yarn](#yarn1)
+  - [NPM](#npm-1)
+  - [Yarn](#yarn-1)
 - [Requirements](#requirements)
 
 ## Usage
