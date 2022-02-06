@@ -1,6 +1,6 @@
 name: Tests
 
-on: [pull_request, push]
+on: [pull_request]
 
 jobs:
   tests:
@@ -12,7 +12,7 @@ jobs:
       - name: Install
         run: docker-compose run --user root -T npm install
       - name: Build
-        run: docker-compose run --user root -T npm build
+        run: docker-compose run --user root -T npm run build
       - name: Pack
         run: docker-compose run --user root -T npm pack
       - name: Prepare
