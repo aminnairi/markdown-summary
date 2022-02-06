@@ -1,6 +1,6 @@
 # @aminnairi/markdown-summary
 
-Command line interface for creating summary for your Markdown files.
+Command line interface for creating summaries for your Markdown files.
 
 ## Summary
 
@@ -9,10 +9,6 @@ Command line interface for creating summary for your Markdown files.
   - [Usage](#usage)
     - [Requirements](#requirements)
     - [Usage](#usage-1)
-  - [Development](#development)
-    - [Requirements](#requirements-1)
-    - [Build](#build)
-    - [Usage](#usage-2)
   - [Exit codes](#exit-codes)
     - [Exit code 1](#exit-code-1)
     - [Exit code 2](#exit-code-2)
@@ -34,40 +30,14 @@ Command line interface for creating summary for your Markdown files.
 ```bash
 npx @aminnairi/markdown-summary README.md
 - [@aminnairi/markdown-summary](#aminnairimarkdown-summary)
+  - [Summary](#summary)
   - [Usage](#usage)
     - [Requirements](#requirements)
     - [Usage](#usage-1)
-  - [Development](#development)
-    - [Requirements](#requirements-1)
-    - [Build](#build)
-    - [Usage](#usage-2)
-```
-
-[Summary](#summary)
-
-## Development
-
-[Summary](#summary)
-
-### Requirements
-
-- Docker
-- Docker Compose
-
-[Summary](#summary)
-
-### Build
-
-```bash
-docker-compose run --rm npm run build
-```
-
-[Summary](#summary)
-
-### Usage
-
-```bash
-docker-compose run --rm npm run markdown-summary README.md
+  - [Exit codes](#exit-codes)
+    - [Exit code 1](#exit-code-1)
+    - [Exit code 2](#exit-code-2)
+    - [Exit code 3](#exit-code-3)
 ```
 
 [Summary](#summary)
