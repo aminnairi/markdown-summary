@@ -20,6 +20,6 @@ jobs:
       - name: Local install
         run: docker-compose run --user root -T npm install package.tgz
       - name: Tests
-        run: docker-compose run --user root -T npm run markdown-summary README.md > output.md
+        run: docker-compose run --user root -T npm run markdown-summary README.md | tail -n +4 > output.md
       - name: Diff
         run: diff examples/summary.md output.md
