@@ -1,4 +1,5 @@
 - [@aminnairi/markdown-summary](#aminnairimarkdown-summary)
+  - [Why](#why)
   - [Summary](#summary)
   - [Usage](#usage)
     - [Requirements](#requirements)
