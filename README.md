@@ -2,7 +2,7 @@
 
 Command line interface for creating summaries for your Markdown files.
 
-[![npm](https://badgen.net/badge/npm/0.1.1/green)](https://www.npmjs.com/package/@aminnairi/markdown-summary/v/0.1.1) [![Tests](https://github.com/aminnairi/markdown-summary/actions/workflows/tests.yaml/badge.svg)](https://github.com/aminnairi/markdown-summary/actions/workflows/tests.yaml) [![vulnerabilities](https://badgen.net/snyk/aminnairi/markdown-summary@0.1.1)](https://snyk.io/) [![size](https://badgen.net/bundlephobia/minzip/@aminnairi/markdown-summary)](https://badgen.net/bundlephobia/minzip/@aminnairi/markdown-summary@0.1.1) [![Dependencies](https://badgen.net/bundlephobia/dependency-count/@aminnairi/markdown-summary@0.1.1)](https://badgen.net/bundlephobia/minzip/@aminnairi/markdown-summary@0.1.1)
+[![npm](https://badgen.net/badge/npm/0.2.0/green)](https://www.npmjs.com/package/@aminnairi/markdown-summary/v/0.2.0) [![Tests](https://github.com/aminnairi/markdown-summary/actions/workflows/tests.yaml/badge.svg)](https://github.com/aminnairi/markdown-summary/actions/workflows/tests.yaml) [![vulnerabilities](https://badgen.net/snyk/aminnairi/markdown-summary@0.2.0)](https://snyk.io/) [![size](https://badgen.net/bundlephobia/minzip/@aminnairi/markdown-summary)](https://badgen.net/bundlephobia/minzip/@aminnairi/markdown-summary@0.2.0) [![Dependencies](https://badgen.net/bundlephobia/dependency-count/@aminnairi/markdown-summary@0.2.0)](https://badgen.net/bundlephobia/minzip/@aminnairi/markdown-summary@0.2.0)
 
 ## Why
 
