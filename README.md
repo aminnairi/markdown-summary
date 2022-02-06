@@ -2,9 +2,19 @@
 
 Command line interface for creating summaries for your Markdown files.
 
+[![Tests](https://github.com/aminnairi/markdown-summary/actions/workflows/tests.yaml/badge.svg)](https://github.com/aminnairi/markdown-summary/actions/workflows/tests.yaml)
+
+## Why
+
+- Prevent making mistakes when creating summary
+- Great for large Markdown files
+- No installation required
+- Written in TypeScript
+
 ## Summary
 
 - [@aminnairi/markdown-summary](#aminnairimarkdown-summary)
+  - [Why](#why)
   - [Summary](#summary)
   - [Usage](#usage)
     - [Requirements](#requirements)
@@ -13,6 +23,10 @@ Command line interface for creating summaries for your Markdown files.
     - [Exit code 1](#exit-code-1)
     - [Exit code 2](#exit-code-2)
     - [Exit code 3](#exit-code-3)
+  - [Changelog](#changelog)
+  - [Code of conduct](#code-of-conduct)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 ## Usage
 
