@@ -23,6 +23,7 @@ export default {
   input: resolve("index.ts"),
   plugins: [external(), esbuild(), terser()],
   output: {
+    banner: "#!/usr/bin/env node",
     file: resolve("build", "index.js"),
     format: "cjs"
   }
