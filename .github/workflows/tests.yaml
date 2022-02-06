@@ -18,4 +18,4 @@ jobs:
       - name: Prepare
         run: mv *.tgz package.tgz
       - name: Tests
-        run: docker-compose run --user root -T npx package.tgz README.md
+        run: docker-compose run -T npx package.tgz README.md
