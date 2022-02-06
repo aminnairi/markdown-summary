@@ -63,3 +63,19 @@ Whenever the program is called with more than one file argument.
 Whenever an error happened when reading the file argument.
 
 [Summary](#summary)
+
+## Changelog
+
+See [`CHANGELOG.md`](./CHANGELOG.md).
+
+## Code of conduct
+
+See [`CODE_OF_CONDUCT.md`](./CODE_OF_CONDUCT.md).
+
+## Contributing
+
+See [`CONTRIBUTING.md`](./CONTRIBUTING.md).
+
+## License
+
+See [`LICENSE`](./LICENSE).
