@@ -1,4 +1,25 @@
 {
+  "author": {
+    "name": "Amin NAIRI",
+    "url": "https://github.com/aminnairi"
+  },
+  "bugs": {
+    "url": "https://github.com/aminnairi/markdown-summary/issues"
+  },
+  "description": "Command line interface for creating summaries for your Markdown files.",
+  "files": [
+    "build"
+  ],
+  "homepage": "https://github.com/aminnairi/markdown-summary#readme",
+  "keywords": [
+    "markdown",
+    "summary",
+    "file"
+  ],
+  "license": "GPL-3.0-or-later",
+  "main": "build/index.js",
+  "name": "@aminnairi/markdown-summary",
+  "version": "0.1.0",
   "scripts": {
     "build": "rollup --config rollup.config.ts",
     "markdown-summary": "node build/index.js"
