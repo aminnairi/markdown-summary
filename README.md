@@ -6,7 +6,7 @@ Command line interface for creating summaries for your Markdown files.
 
 ## Why
 
-- Prevent making mistakes when creating summary
+- Prevent making mistakes when creating summaries
 - Great for large Markdown files
 - No installation required
 - Written in TypeScript
