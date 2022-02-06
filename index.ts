@@ -48,5 +48,5 @@ readFile(file).then((fileBuffer) => {
     console.error(String(error));
   }
 
-  process.exit(2);
+  process.exit(3);
 });
