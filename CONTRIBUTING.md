@@ -15,6 +15,14 @@
 
 [Summary](#summary)
 
+## Check
+
+```bash
+docker-compose run --rm npm run check
+```
+
+[Summary](#summary)
+
 ## Build
 
 ```bash
